@@ -1,0 +1,14 @@
+{
+    "name": "3xtr4t3rr3str14l/moneyproblems",
+    "autoload": {
+        "psr-0" : {
+            "3xtr4t3rr3str14l\\moneyproblems" : "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/3xtr4t3rr3str14l/moneyproblems"
+        }
+    ]
+}
