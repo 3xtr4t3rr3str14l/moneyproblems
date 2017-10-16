@@ -10,5 +10,8 @@
             "type": "vcs",
             "url": "https://github.com/3xtr4t3rr3str14l/moneyproblems"
         }
-    ]
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    }
 }
