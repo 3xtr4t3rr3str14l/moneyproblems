@@ -2,7 +2,7 @@
     "name": "3xtr4t3rr3str14l/moneyproblems",
     "autoload": {
         "psr-4" : {
-            "3xtr4t3rr3str14l\\moneyproblems\\" : "src"
+            "3xtr4t3rr3str14l\\moneyproblems\\" : ""
         }
     },
     "repositories": [

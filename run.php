@@ -1,6 +1,6 @@
 <?php
 
-include("./src/countmoney.php");
+include("./countmoney.php");
 
 run($argv);
 

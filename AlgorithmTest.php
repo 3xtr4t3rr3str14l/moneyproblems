@@ -1,5 +1,5 @@
 <?php
-include("./src/countmoney.php");
+include("./countmoney.php");
 
 class AlgorithmTest extends PHPUnit_Framework_TestCase
 {
