@@ -72,13 +72,15 @@
     return sortData($data);
   }
 
-  if (count($argv) > 1) {
-    $data = getFormattedDataFromUserInput($argv[1]);
-    printHeader($data);
-    $startingCoinIndex = 0;
-    findChange($startingCoinIndex, $data);
-    echo "\n", " Count: ", $GLOBALS["numCombos"], "\n";
-  } else {
-    echo "No input provided.  Please run again with proper input as 'php countmoney.php <input>'. \n";
+  function run($argv) {
+    if (count($argv) > 1) {
+      $data = getFormattedDataFromUserInput($argv[1]);
+      printHeader($data);
+      $startingCoinIndex = 0;
+      findChange($startingCoinIndex, $data);
+      echo "\n", " Count: ", $GLOBALS["numCombos"], "\n";
+    } else {
+      echo "No input provided.  Please run again with proper input as 'php countmoney.php <input>'. \n";
+    }
   }
 ?>

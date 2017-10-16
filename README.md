@@ -4,4 +4,4 @@
 In terminal, run 'composer install'
 
 ## Run
-In terminal, run 'php countmoney.php <arg>'
+In terminal, run 'php run.php <arg>'
